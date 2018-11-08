@@ -1,0 +1,31 @@
+{
+  "name": "mingodb",
+  "version": "1.0.0",
+  "description": "Mingo Database",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ronsinai/mingodb.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ronsinai/mingodb/issues"
+  },
+  "homepage": "https://gitlab.com/ronsinai/mingodb#README",
+  "engines": {
+    "node": "0.10.33"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.5.3",
+    "rimraf": "^2.6.2"
+  },
+  "dependencies": {
+    "async": "^2.6.1"
+  }
+}
